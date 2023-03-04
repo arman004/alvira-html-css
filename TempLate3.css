@@ -1,0 +1,279 @@
+/**{
+	margin:auto;
+}*/
+
+
+ul>li{
+	list-style-type:none;
+	color:white;
+}
+ul>li:hover{
+	cursor:pointer;
+}
+.div_one{
+	color:white;
+	font-size:50px;
+	padding-left:35px;
+}
+ul{
+	display:flex;
+	gap: 20px;
+}
+header{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+nav{
+	padding-right:50px;
+}
+main{
+	background-image:url(img.jpg);
+	width:100%;
+	height:900px;
+	background-repeat:no-repeat;
+}
+section{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	height: 100%;
+
+}
+p{
+	color:white;
+	text-align:center;
+}
+h2{
+	color:white;
+	font-size:50px;
+}
+.head{
+	color:black;
+	font-size:35px;
+	text-align:center;
+}
+
+.div1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+	gap: 30px;
+    padding-top:15px;
+    margin-bottom:50px;
+}
+.divs{
+	border:1px solid;
+	width:360px;
+	height:160px;
+}
+.div5{
+	width:100%;
+	height:250px;
+	display:flex;
+	justify-content:space-evenly;
+}
+.div2{
+	background-image:url(img2.jpg);
+	background-size:cover;
+}
+.div3{
+	background-image:url(img3.jpg);
+	background-size:cover;
+}
+.div4{
+	background-image:url(img4.jpg);
+	background-size:cover;
+}
+.div6{
+	background-image:url(img5.jpg);
+	background-size:cover;
+}
+.div7{
+	background-image:url(img6.jpg);
+	background-size:cover;
+}
+.div8{
+	background-image:url(img7.jpg);
+	background-size:cover;
+}
+.div00{
+	width:360px;
+	height:200px;
+}
+.div00>p{
+	color:black;
+}
+.div02{
+	background-image:url(img02.jpg);
+	background-size:cover;
+}
+.div03{
+	background-image:url(img03.jpg);
+	background-size:cover;
+}
+.div04{
+	background-image:url(img04.jpg);
+	background-size:cover;
+}
+.div06{
+	background-image:url(img05.jpg);
+	background-size:cover;
+}
+.div07{
+	background-image:url(img06.jpg);
+	background-size:cover;
+}
+.div08{
+	background-image:url(img07.jpg);
+	background-size:cover;
+}
+.divs:hover{
+	cursor:pointer;
+}
+.div00:hover{
+	cursor:pointer;
+}
+
+.div_2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+	gap: 30px;
+    padding-top:30px;
+    margin-bottom:50px;
+}
+
+.div002{
+	background-image:url(002.jpg);
+	background-size:cover;
+}
+.div003{
+	background-image:url(003.jpg);
+	background-size:cover;
+}
+.div004{
+	background-image:url(004.jpg);
+	background-size:cover;
+}
+.div006{
+	background-image:url(005.jpg);
+	background-size:cover;
+}
+.div007{
+	background-image:url(006.jpg);
+	background-size:cover;
+}
+.div008{
+	background-image:url(007.jpg);
+	background-size:cover;
+}
+.one{
+	display:none;
+    width: 360px;
+    background: #00000073;
+    height: 160px;
+    position: relative;
+    border: 1px solid transparent;
+}
+.div006:hover .one{
+	display:block;	
+}
+
+.buttons{
+ 	display: flex; 
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+
+}
+.div007:hover .one{
+	display:block;
+}
+.div008:hover .one{
+	display:block;
+}
+
+button{
+	margin:0 5px;
+	width:60px;
+	height:30px;
+	border:1px solid white;
+	background-color: #00000073;
+	color:white;
+}
+button:hover{
+	background-color:white;
+	color:black;
+	cursor:pointer;
+}
+.div004:hover .one{
+	display:block;
+}
+.div003:hover .one{
+	display:block;
+}
+.div002:hover .one{
+	display:block;
+}
+.div08:hover .one{
+	display:block;
+}
+.div07:hover .one{
+	display:block;
+}
+.div06:hover .one{
+	display:block;
+}
+.div04:hover .one{
+	display:block;
+}
+.div03:hover .one{
+	display:block;
+}
+.div02:hover .one{
+	display:block;
+}
+.div8:hover .one{
+	display:block;
+}
+.div7:hover .one{
+	display:block;
+}
+.div6:hover .one{
+	display:block;
+}
+.div4:hover .one{
+	display:block;
+}
+.div3:hover .one{
+	display:block;
+}
+.div2:hover .one{
+	display:block;
+}
+footer{
+	background-color:black;
+	width:100%;
+	padding:50px 0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+.icons{
+	color:white;
+	border:1px solid white;
+	width:25px;
+	height:18px;
+	text-align:center;
+}
+.icons:hover{
+	background-color:white;
+	color:black;
+	cursor:pointer;
+}
+.ic{
+	color:white;
+}
+
